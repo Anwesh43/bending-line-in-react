@@ -50,6 +50,7 @@ export const useStyle = (w : number, h : number, scale : number) => {
     const position = 'absolute'
     const size = Math.min(w, h) / 10 
     const lineWidth = Math.min(w, h) / 90 
+    const sf : number = Math.sin(scale * Math.PI)
     return {
         
         parentStyle() : CSSProperties {
@@ -65,7 +66,7 @@ export const useStyle = (w : number, h : number, scale : number) => {
                 container() : CSSProperties {
                     return {
                         position, 
-                        transform: `rotate(${45 * (1 - 2 * i) * scale}deg)`
+                        transform: `rotate(${45 * (1 - 2 * i) * sf}deg)`
                     }
                 },
                 line() : CSSProperties {

@@ -16,4 +16,4 @@ Usage
 
 <!-- <img src ="https://github.com/Anwesh43/bending-line-in-react/blob/master/bend-line-v2.gif" width = "300px" height = "300px"> -->
 
-<video src = "https://github.com/Anwesh43/bending-line-in-react/raw/master/bll.webm" width = "300px" height = "300px">
+[![Watch the video](https://github.com/Anwesh43/bending-line-in-react/raw/master/bll.webm)
